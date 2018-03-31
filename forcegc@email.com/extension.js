@@ -9,7 +9,7 @@ const ForceGC = new Lang.Class({
     },
     _enable: function() {
         this._enabled = true;
-        Mainloop.timeout_add_seconds(5, Lang.bind(this, function() {
+        Mainloop.timeout_add_seconds(60, Lang.bind(this, function() {
             imports.system.gc();
             return this._enabled;
         }));

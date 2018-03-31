@@ -1,0 +1,9 @@
+{
+    "shell-version": [
+        "3.28"
+    ], 
+    "uuid": "forcegc@email.com", 
+    "name": "Force more aggressive GC behaviour", 
+    "description": "Force more aggressive GC behaviour",
+    "url": "https://github.com/adee/gnome-shell-aggressive-gc"
+}
